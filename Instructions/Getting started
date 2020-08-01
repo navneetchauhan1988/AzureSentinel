@@ -1,3 +1,23 @@
+# Managing Azure Subscriptions and Resources
+
+# Lab: Exploring Monitoring Capabilities in Azure
+
+### Scenario
+
+Adatum Corporation wants to explore monitoring capabilities in Azure
+
+### Objectives
+
+After completing this lab, you will be able to:
+
+- Deploy Azure VM scale sets
+
+- Implement monitoring and alerting by using Azure Monitor
+
+### Lab Setup
+
+Estimated Time: 45 minutes
+
 # Create  Azure Pass Sponsorship subscription.
 
 1. Launch Web Browser 
