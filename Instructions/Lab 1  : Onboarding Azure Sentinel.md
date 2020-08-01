@@ -1,6 +1,6 @@
 # Lab :  Onboarding Azure Sentinel
 
-Estimated Time: 45 minutes
+Estimated Time: 60 minutes
 
 
 Azure Sentinel is your bird's-eye view across the enterprise. Put the cloud and large-scale intelligence from decades of Microsoft security experience to work. 
@@ -45,17 +45,17 @@ Azure Sentinel is billed based on the volume of data ingested for analysis in Az
 Azure Sentinel offers a flexible and predictable pricing model.​
 There are two ways to pay for the Azure Sentinel service: Capacity Reservations and Pay-As-You-Go.​ The cost for Azure Sentinel depends on the pricing tier selected.
 
-1. On Azure Sentinal Page , click Settings , verfiy pricing tiers 
-2. Click Workspace settings 
+1. On Azure Sentinal Page , click **Settings** , verfiy pricing tiers 
+2. Click **Workspace settings** 
 
 ![image](https://user-images.githubusercontent.com/33748560/89100516-2a760200-d415-11ea-9b09-74771b18af1d.png)
 
-3. On Log Analaytics workspace page , click Usage and estimated costs
+3. On Log Analaytics workspace page , click **Usage and estimated costs**
 
 
 ![image](https://user-images.githubusercontent.com/33748560/89100531-3a8de180-d415-11ea-8170-56d3bd5d09d5.png)
 
-4. Select Data Retention 
+4. Click **Data Retention** 
 
 ![image](https://user-images.githubusercontent.com/33748560/89100534-44174980-d415-11ea-986e-d351dc906dda.png)
 
@@ -67,6 +67,7 @@ There are two ways to pay for the Azure Sentinel service: Capacity Reservations 
 
 Azure Sentinel creates connections to services and apps by connecting to the service and forwarding the events and logs to Azure Sentinel. For machines and virtual machines, you can install the Azure Sentinel agent that collects the logs and forwards them to Azure Sentinel. For Firewalls and proxies, Azure Sentinel utilizes a Linux Syslog server. The agent is installed collects the log files and forwards them to Azure Sentinel. 
 
+### Connect Azure Activity Log
 
 1.  In the Azure Portal select All resources and select the Log Analytics workspace you created in the previous task.
 
@@ -92,6 +93,38 @@ After you connect, you see a summary of the data in the **Data received** graph,
      ![image](https://user-images.githubusercontent.com/33748560/89099743-15967000-d40f-11ea-938c-1f470e19f0c9.png)
      
      ![image](https://user-images.githubusercontent.com/33748560/89099776-48406880-d40f-11ea-8f68-816372361687.png)
+     
+### Connect Azure Active Directory
+To Connect Azure active directory with Sentinel,  Azure AD  P1/P2  License is required 
+
+1. Type Azure Active Directoery in free search on azure portal , **Click Azure Active Directory**
+
+![image](https://user-images.githubusercontent.com/33748560/89101232-aa9f6600-d41b-11ea-9916-cf48e6f4ca94.png)
+
+2. On azure AD page, click **Getting Started**
+
+3.click **Get a free trial for Azure AD Premium** 
+
+4.click **Free Trial** and click **Activate**
+
+![image](https://user-images.githubusercontent.com/33748560/89101304-63fe3b80-d41c-11ea-81af-d68a4486d941.png)
+
+5. In the Azure portal, type **Azure Sentinel**. 
+
+![image](https://user-images.githubusercontent.com/33748560/89098916-36f45d80-d409-11ea-9275-fa0c6f61111e.png)
+
+6. Click on **Azure Sentinel**
+
+7. On the menu, select **Data connectors**. This page lets you see the full list of connectors that Azure Sentinel provides and their status.
+
+      ![image](https://user-images.githubusercontent.com/33748560/89099493-4e354a00-d40d-11ea-82b9-8f9465fbecdc.png)
+
+3.  Select **Azure Active Directory** and click **Open connector page**.
+
+4.  Select **Check both boxes Azure Active Directory , Sign-in logs Azure Active Directory Audit logs** and Click **Apply Changes**
+
+
+![image](https://user-images.githubusercontent.com/33748560/89101329-914ae980-d41c-11ea-8d22-34c9c745daeb.png)
 
  
 
