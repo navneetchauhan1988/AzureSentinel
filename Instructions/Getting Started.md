@@ -11,6 +11,8 @@ Estimated Time: 10 minutes
    https://www.microsoftazurepass.com/
    
 1. Click Start on home page
+![image](https://user-images.githubusercontent.com/33748560/89099861-0106a780-d410-11ea-8cfd-47c5bdb1d46a.png)
+
 
 1. Login with your personal Microsoft account
 
@@ -39,6 +41,20 @@ Estimated Time: 10 minutes
 
 1. Verify Azure Pass - Sponsorship Subscription is created and active.
 
+
+![image](https://user-images.githubusercontent.com/33748560/89100042-96ef0200-d411-11ea-8ead-daaa4bec634a.png)
+
 Note : If the subscription is not listed , clear the check box Show only subscriptions selected in theglobal subscriptions filter 
+
+![image](https://user-images.githubusercontent.com/33748560/89100057-ba19b180-d411-11ea-929d-f65ddcb91e2e.png)
+
+
+
+
+
+
+
+
+
 
 
