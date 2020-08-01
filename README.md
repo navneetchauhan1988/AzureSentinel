@@ -1,4 +1,4 @@
-# AzureSentinel
+# Azure Sentinel
 ## Microsoft Azure Sentinel step by step lab guide.
 
 Candidates,  who wish to onboard and perform day to day operations in Azure Sentinel can use this repository to perform hands on.
