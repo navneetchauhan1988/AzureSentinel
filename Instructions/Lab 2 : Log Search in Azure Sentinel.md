@@ -101,7 +101,7 @@ Kusto query plays a crucial role in creating Azure Sentinel  threat detection ru
 
 2. Review the result in result pane.
 
-### Task 8 : render: Renders results as a graphical output.
+### Task 9 : render: Renders results as a graphical output.
 1.  Enter the below query in editor and click **Run**
 
 ColumnChart
