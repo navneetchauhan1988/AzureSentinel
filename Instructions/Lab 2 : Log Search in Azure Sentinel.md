@@ -6,7 +6,8 @@ Kusto query is a read-only request to process data and return results.
 The request is stated in plain text, using a data-flow model designed to make the syntax easy to read, author, and automate.
 Kusto query plays a crucial role in creating Azure Sentinel  threat detection rules , hunting queries , notebook, workbooks and dashboards.
 
-## Exercise 1: Azure Sentinel Log search 
+## Exercise 1: Most common operators
+
 
 1. In the Azure portal, type **Azure Sentinel**. 
 
@@ -16,14 +17,56 @@ Kusto query plays a crucial role in creating Azure Sentinel  threat detection ru
 
 3. Under General , Click on **Logs** 
 
-4. Enter the below query in editor and click **Run**
+### Task 1 : count : Returns the count of rows in the table
+
+1.  Enter the below query in editor and click **Run**
+
+**AzureActivity|count**
+
+2. Review the result in result pane.
+
+### Task 2 : take Returns up to the specified number of rows of data.
+
+1.  Enter the below query in editor and click **Run**
+
+**AzureActivity|take**
+
+2. Review the result in result pane.
+
+### Task 3 : project : Selects a subset of columns.
+1.  Enter the below query in editor and click **Run**
+
+**AzureActivity|project**
+
+2. Review the result in result pane.
+
+### Task 4 : where : Filters a table to the subset of rows that satisfy a predicate.
+1.  Enter the below query in editor and click **Run**
 
 **AzureActivity
-|where CategoryValue == "Administrative" and ActivityStatus == "Succeeded"
+|where CategoryValue == "Administrative" and ActivityStatusValue == "Success"
 |take  10 
-|project TimeGenerated,CategoryValue,Level,ResourceGroup,ActivityStatus**
+|project TimeGenerated,CategoryValue,Caller,ActivityStatusValue
+**
 
-5. Review the result in result pane.
+2. Review the result in result pane.
+
+### Task 5 : sort : Sort the rows of the input table into order by one or more columns.
+1.  Enter the below query in editor and click **Run**
+**
+AzureActivity
+|where CategoryValue == "Administrative" and ActivityStatusValue == "Success"
+|sort by Caller desc 
+|take  10 
+|project TimeGenerated,CategoryValue,Caller,ActivityStatusValue
+**
+
+2. Review the result in result pane.
+
+
+
+
+
 
 
 ![image](https://user-images.githubusercontent.com/33748560/89102678-2bb12a00-d429-11ea-9cc8-ef367ff89970.png)
