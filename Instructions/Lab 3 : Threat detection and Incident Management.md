@@ -71,11 +71,12 @@ This tutorial helps you create custom rules to detect threats with Azure Sentine
  2. In the top menu bar, select **+Create** and select **Scheduled query rule**. This opens the Analytics rule wizard.
  
  3. In the General tab, Configure parameter as below 
-    **Name, GitHub Signin Burst from Multiple Locations.**
-    **Description, This alerts when there Signin burst from multiple locations in GitHub (AAD SSO).**
-    **Tactics, CredentialAccess**
-    **Severity, Medium**
-    **Status, Enabled**  
+ 
+             a. Name - GitHub Signin Burst from Multiple Locations.
+             b. Description -This alerts when there Signin burst from multiple locations in GitHub (AAD SSO).
+             c. Tactics - CredentialAccess,
+             d. Severity - Medium
+             e. Status - Enabled 
     
  4. click  **Set rule logic** 
  
