@@ -162,7 +162,7 @@ An incident can include multiple alerts. It's an aggregation of all the relevant
    
    9. Select  **Entities** tab, where you see all the entities that you mapped in alert rule definition.
    
-   ### Task 3 : Use the investigation graph to deep dive
+   ### Task 2 : Use the investigation graph to deep dive
    
    1. Select an **incident**, then select **Investigate**. This takes you to the investigation graph.
    
