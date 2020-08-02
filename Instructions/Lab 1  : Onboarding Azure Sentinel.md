@@ -69,7 +69,7 @@ Azure Sentinel creates connections to services and apps by connecting to the ser
 
 ### Connect Azure Activity Log
 
-1.  In the Azure Portal select All resources and select the Log Analytics workspace you created in the previous task.
+1.  In the Azure Portal , Search for **Azure Sentinal** , Click Azure Sentinal you created in previous task.
 
 2.  On the menu, select **Data connectors**. This page lets you see the full list of connectors that Azure Sentinel provides and their status.
 
