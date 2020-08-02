@@ -27,7 +27,7 @@ This tutorial helps you create custom rules to detect threats with Azure Sentine
    
    ![image](https://user-images.githubusercontent.com/33748560/89113759-a4000580-d492-11ea-80ec-5016b1ac4d98.png)
 
-
+    find more details on https://attack.mitre.org/tactics/enterprise/
 
 7. On Set Rule Logic Page , keep the parameters value as default , click **Next**
 
