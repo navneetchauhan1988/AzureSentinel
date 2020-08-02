@@ -141,9 +141,9 @@ An incident can include multiple alerts. It's an aggregation of all the relevant
 
    ### Task 1
    
-   1. Select **Incidents** ,
+   1. Select **Incidents** 
    
-     ![image](https://user-images.githubusercontent.com/33748560/89115145-3e1b7a00-d4a2-11ea-98bb-5e131525354e.png)
+   ![image](https://user-images.githubusercontent.com/33748560/89115145-3e1b7a00-d4a2-11ea-98bb-5e131525354e.png)
    
    2. Using criterian filter you can filter the incidents as needed, for example by status or severity
    
