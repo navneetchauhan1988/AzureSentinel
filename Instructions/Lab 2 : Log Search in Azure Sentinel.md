@@ -32,7 +32,7 @@ Kusto query plays a crucial role in creating Azure Sentinel  threat detection ru
 1.  Enter the below query in editor and click **Run**
 
           AzureActivity
-          |take
+          |take 10
 
 2. Review the result in result pane.
 
@@ -40,7 +40,7 @@ Kusto query plays a crucial role in creating Azure Sentinel  threat detection ru
 1.  Enter the below query in editor and click **Run**
 
             AzureActivity
-            |project
+            |project TimeGenerated,CategoryValue,Caller,ActivityStatusValue
 
 2. Review the result in result pane.
 
