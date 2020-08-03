@@ -62,10 +62,16 @@ There are two ways to pay for the Azure Sentinel service: Capacity Reservations 
 5. Adjust Data retention slider .
 
 
-### Task 3: Connect data sources
-
+## Exercise 1:   Connect data sources
 
 Azure Sentinel creates connections to services and apps by connecting to the service and forwarding the events and logs to Azure Sentinel. For machines and virtual machines, you can install the Azure Sentinel agent that collects the logs and forwards them to Azure Sentinel. For Firewalls and proxies, Azure Sentinel utilizes a Linux Syslog server. The agent is installed collects the log files and forwards them to Azure Sentinel. 
+
+
+
+### Task 1: Service to service integration:
+
+
+
 
 ### Connect Azure Activity Log
 
@@ -125,6 +131,12 @@ To Connect Azure active directory with Sentinel,  Azure AD  P1/P2  License is re
 
 
 ![image](https://user-images.githubusercontent.com/33748560/89101329-914ae980-d41c-11ea-8d22-34c9c745daeb.png)
+
+### Task 2 : External solutions via agent:
+
+refer to https://docs.microsoft.com/en-us/azure/azure-monitor/platform/log-analytics-agent
+
+
 
  
 
