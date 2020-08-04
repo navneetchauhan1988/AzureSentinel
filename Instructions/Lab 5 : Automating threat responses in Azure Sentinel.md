@@ -21,7 +21,7 @@ you will see all the playbooks across any selected subscriptions.
 ![image](https://user-images.githubusercontent.com/33748560/89313574-4c31ec00-d696-11ea-8524-d92ed07bab85.png)
 
 
-4. Provide details in Logic app parameters as below
+4. Logic App page will open , Provide details in Logic app parameters as below
 
 ![image](https://user-images.githubusercontent.com/33748560/89313952-b34fa080-d696-11ea-8232-935331685660.png)
 
