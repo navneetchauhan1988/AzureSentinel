@@ -194,7 +194,7 @@ wait for cloud shell to be launched.
  
  ![image](https://user-images.githubusercontent.com/33748560/89268317-fe958f00-d655-11ea-9ef4-563469c3ebd1.png)
  
- 3. Click **Go to Logs **
+ 3. Click **Go to Logs**
  
  4. Verify the agent properties in the result pane.
  
