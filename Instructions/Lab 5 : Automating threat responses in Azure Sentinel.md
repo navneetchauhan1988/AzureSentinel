@@ -54,7 +54,7 @@ you will see all the playbooks across any selected subscriptions.
 
 14. Under Choose an action , Search for **Outlook.com**  , Select  **Send an email (V2)**
 
-![image](https://user-images.githubusercontent.com/33748560/89316775-26a6e180-d69a-11ea-8f2a-2a663185cc0f.png)
+![image](https://user-images.githubusercontent.com/33748560/89322780-5f4ab900-d6a2-11ea-9f80-9e33971a44f9.png)
 
 15. Click **Signin**
 
