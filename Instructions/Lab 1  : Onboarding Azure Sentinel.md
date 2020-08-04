@@ -134,7 +134,7 @@ To Connect Azure active directory with Sentinel,  Azure AD  P1/P2  License is re
 
 ### Task 2 : External solutions via agent:
 
-### Installing Azure Log anaytics  Agent for Linux server 
+### Installing Azure Log anaytics  Agent on Linux server 
 
 1. Select **Cloud Shell** in azure portal.
 
@@ -201,6 +201,8 @@ wait for cloud shell to be launched.
  5. Enter **Syslog** in query enter and click **Run**
  
  6. Verify the Logs collected from linux machine.
+ 
+ ![image](https://user-images.githubusercontent.com/33748560/89269182-2f29f880-d657-11ea-9591-f6e2fa47cc4d.png)
  
 
  
