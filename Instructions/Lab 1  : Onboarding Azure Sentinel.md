@@ -1,4 +1,4 @@
-# Lab :  Onboarding Azure Sentinel
+# Lab :  Onboarding Azure Sentinel and Connect Data Sources
 
 Estimated Time: 60 minutes
 
@@ -7,7 +7,7 @@ Azure Sentinel is your bird's-eye view across the enterprise. Put the cloud and 
 Make your threat detection and response smarter and faster with artificial intelligence (AI)
 
 
-## Exercise 1: On-board Azure Sentinel and Connect Data Sources
+## Exercise 1: On-board Azure Sentinel 
 
 
 To on-board Azure Sentinel, you first need to enable Azure Sentinel, and then connect your data sources. Azure Sentinel comes with a number of connectors 
