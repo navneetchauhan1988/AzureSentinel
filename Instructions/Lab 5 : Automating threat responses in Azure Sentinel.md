@@ -1,6 +1,6 @@
 # Lab :  Automating threat responses in Azure Sentinel
 
-Estimated Time: 30 minutes
+Estimated Time: 45 minutes
 
 A security playbook is a collection of procedures that can be run from Azure Sentinel in response to an alert. 
 A security playbook can help automate and orchestrate your response, and can be run manually or set to run automatically when specific alerts are triggered. 
