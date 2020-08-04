@@ -7,7 +7,7 @@ Azure Sentinel is your bird's-eye view across the enterprise. Put the cloud and 
 Make your threat detection and response smarter and faster with artificial intelligence (AI)
 
 
-## Exercise 1: On-board Azure Sentinel
+## Exercise 1: On-board Azure Sentinel and Connect Data Sources
 
 
 To on-board Azure Sentinel, you first need to enable Azure Sentinel, and then connect your data sources. Azure Sentinel comes with a number of connectors 
@@ -62,7 +62,7 @@ There are two ways to pay for the Azure Sentinel service: Capacity Reservations 
 5. Adjust Data retention slider .
 
 
-## Exercise 1:   Connect data sources
+## Exercise 2:   Connect data sources
 
 Azure Sentinel creates connections to services and apps by connecting to the service and forwarding the events and logs to Azure Sentinel. For machines and virtual machines, you can install the Azure Sentinel agent that collects the logs and forwards them to Azure Sentinel. For Firewalls and proxies, Azure Sentinel utilizes a Linux Syslog server. The agent is installed collects the log files and forwards them to Azure Sentinel. 
 
@@ -134,9 +134,74 @@ To Connect Azure active directory with Sentinel,  Azure AD  P1/P2  License is re
 
 ### Task 2 : External solutions via agent:
 
-refer to https://docs.microsoft.com/en-us/azure/azure-monitor/platform/log-analytics-agent
+### Installing Azure Log anaytics  Agent for Linux server 
+
+1. Select **Cloud Shell** in azure portal.
+
+![image](https://user-images.githubusercontent.com/33748560/89263972-cc812e80-d64f-11ea-8484-6e91a1cf8244.png)
+
+2. Click **Create Storage** if prompted
+
+![image](https://user-images.githubusercontent.com/33748560/89263984-d2770f80-d64f-11ea-9ec8-d3ee3df1674c.png)
+
+wait for cloud shell to be launched.
 
 
+3. Run below commands in cloudshell to Create  a Linux VM
+
+    **az group create --name myResourceGroupVM --location eastus**
+    **az vm create --resource-group myResourceGroupVM  --name myVM  --image UbuntuLTS --admin-username azureuser  --generate-ssh-keys**
+  
+   
+                                 
+4. Run below command to connect to Linux vm  (replace the PublicIpAdress with your vm's public ip )
+
+   **ssh azureuser@PublicIpAdress**
+      
+      
+5.  Run below command to Install Agent  (Replace the value with your workspace id and the key , you can find them on Agent Management blade of your Log analytics       workspace)
+      
+
+   **wget https://raw.githubusercontent.com/Microsoft/OMS-Agent-for-Linux/master/installer/scripts/onboard_agent.sh && sh onboard_agent.sh
+   -w "YOUR WORKSPACE ID" -s "YOUR WORKSPACE PRIMARY KEY"**
+   
+   
+ ### Collect event and performance data
+ 
+ 1. In Azure portal free search , type  Log Analytics and select the workspace you are looking for
+ 
+ 2. Select **Advanced settings ** 
+ 
+ 3. Select **Data**, and then select **Syslog**.
+ 
+ 4. Check the **Apply below configuration to my machines** check box
+ 
+ 5. You add syslog by typing in the name of the log. Enter **Syslog** and then select the plus sign **+**
+ 
+ 6. Select **Save** at the top of the page to save the configuration.
+ 
+ 7. Select **Linux Performance Counters** to enable collection of performance counters on a Linux computer.
+ 
+ 8. Select **Apply below configuration to to my machines** and then select **Add the selected performance counters**. They are added and preset with a ten second       collection sample interval.
+ 
+ 9. Select **Save** at the top of the page to save the configuration.
+ 
+ ### Validate the Agent installation
+ 
+ 1. On Log analytics Workspace , Select **Agent Management** blade
+ 
+ 2. Select **Linux Servers**
+ 
+ ![image](https://user-images.githubusercontent.com/33748560/89268317-fe958f00-d655-11ea-9ef4-563469c3ebd1.png)
+ 
+ 3. Click **Go to Logs **
+ 
+ 4. Verify the agent properties in the result pane.
+ 
+ 5. Enter **Syslog** in query enter and click **Run**
+ 
+ 6. Verify the Logs collected from linux machine.
+ 
 
  
 
