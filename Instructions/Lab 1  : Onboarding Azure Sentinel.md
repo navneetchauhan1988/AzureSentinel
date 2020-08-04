@@ -170,7 +170,7 @@ wait for cloud shell to be launched.
  
  1. In Azure portal free search , type  Log Analytics and select the workspace you are looking for
  
- 2. Select **Advanced settings ** 
+ 2. Select **Advanced settings** 
  
  3. Select **Data**, and then select **Syslog**.
  
