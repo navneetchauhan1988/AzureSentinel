@@ -149,8 +149,8 @@ wait for cloud shell to be launched.
 
 3. Run below commands in cloudshell to Create  a Linux VM
 
-    **az group create --name myResourceGroupVM --location eastus**
-    **az vm create --resource-group myResourceGroupVM  --name myVM  --image UbuntuLTS --admin-username azureuser  --generate-ssh-keys**
+       **az group create --name myResourceGroupVM --location eastus**
+       **az vm create --resource-group myResourceGroupVM  --name myVM  --image UbuntuLTS --admin-username azureuser  --generate-ssh-keys**
   
    
                                  
