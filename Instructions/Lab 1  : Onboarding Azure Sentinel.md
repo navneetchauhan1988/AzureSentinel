@@ -206,9 +206,12 @@ wait for cloud shell to be launched.
  
 ### Stop Azure VM to avoid incurring aditional cost.
 
-1. Type **VM** in azure portal free search 
+1. Type **VM** in azure portal free search , and click **Virtual Machines**
 
-![image](https://user-images.githubusercontent.com/33748560/89442663-d2b8fd00-d76c-11ea-89a0-5130618fc344.png)
+
+![image](https://user-images.githubusercontent.com/33748560/89443080-68ed2300-d76d-11ea-86d0-ae3b0d2333d2.png)
+
+
 
 2. Select VM and click **Stop**
 
