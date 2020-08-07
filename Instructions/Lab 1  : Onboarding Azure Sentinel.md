@@ -101,33 +101,21 @@ After you connect, you see a summary of the data in the **Data received** graph,
      ![image](https://user-images.githubusercontent.com/33748560/89099776-48406880-d40f-11ea-8f68-816372361687.png)
      
 ### Connect Azure Active Directory
-To Connect Azure active directory with Sentinel,  Azure AD  P1/P2  License is required 
 
-1. Type Azure Active Directoery in free search on azure portal , **Click Azure Active Directory**
 
-![image](https://user-images.githubusercontent.com/33748560/89101232-aa9f6600-d41b-11ea-9916-cf48e6f4ca94.png)
-
-2. On azure AD page, click **Getting Started**
-
-3.click **Get a free trial for Azure AD Premium** 
-
-4.click **Free Trial** and click **Activate**
-
-![image](https://user-images.githubusercontent.com/33748560/89101304-63fe3b80-d41c-11ea-81af-d68a4486d941.png)
-
-5. In the Azure portal, type **Azure Sentinel**. 
+1. In the Azure portal, type **Azure Sentinel**. 
 
 ![image](https://user-images.githubusercontent.com/33748560/89098916-36f45d80-d409-11ea-9275-fa0c6f61111e.png)
 
-6. Click on **Azure Sentinel**
+2. Click on **Azure Sentinel**
 
-7. On the menu, select **Data connectors**. This page lets you see the full list of connectors that Azure Sentinel provides and their status.
+3. On the menu, select **Data connectors**. This page lets you see the full list of connectors that Azure Sentinel provides and their status.
 
       ![image](https://user-images.githubusercontent.com/33748560/89099493-4e354a00-d40d-11ea-82b9-8f9465fbecdc.png)
 
-3.  Select **Azure Active Directory** and click **Open connector page**.
+4.  Select **Azure Active Directory** and click **Open connector page**.
 
-4.  Select **Check both boxes Azure Active Directory , Sign-in logs Azure Active Directory Audit logs** and Click **Apply Changes**
+5.  Select **Check both boxes Azure Active Directory , Sign-in logs Azure Active Directory Audit logs** and Click **Apply Changes**
 
 
 ![image](https://user-images.githubusercontent.com/33748560/89101329-914ae980-d41c-11ea-8d22-34c9c745daeb.png)
