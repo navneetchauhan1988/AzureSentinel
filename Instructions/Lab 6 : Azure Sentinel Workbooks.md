@@ -45,9 +45,9 @@ https://docs.microsoft.com/en-us/azure/azure-monitor/platform/workbooks-overview
 
 ![image](https://user-images.githubusercontent.com/33748560/89669420-0cb90900-d8fd-11ea-99ed-4bf878d1c069.png)
 
-4. Open Workbook library on Github in a new tab   :  https://github.com/microsoft/Application-Insights-Workbooks/tree/master/Workbooks 
+4. Right click and open following  Workbook library in a new tab   :  https://github.com/microsoft/Application-Insights-Workbooks/tree/master/Workbooks 
 
-5. Open **Azure Active Directory/SignIns/** folder 
+5. Open **Azure Active Directory/SignIns/** folder in the repository 
 
 6. Open **Signins.workbook** and click **edit button**
 
@@ -56,5 +56,7 @@ https://docs.microsoft.com/en-us/azure/azure-monitor/platform/workbooks-overview
 8. Switch to Azure Sentinel workbook advanced editor page, and replace the entire code with the clipboard
 
 9. Click **apply** and **Save**.
+
+10. Repeat step 1 through 9 to create more workbooks.
 
 
