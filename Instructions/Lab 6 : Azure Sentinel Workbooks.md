@@ -51,6 +51,9 @@ https://docs.microsoft.com/en-us/azure/azure-monitor/platform/workbooks-overview
 
 6. Open **Signins.workbook** and click **edit button**
 
+![image](https://user-images.githubusercontent.com/33748560/89670794-66223780-d8ff-11ea-8812-8e2cd7f9c2b6.png)
+
+
 7. Select all and Copy  to clipboard by pressing **Ctrl+C** , 
 
 8. Switch to Azure Sentinel workbook advanced editor page, and replace the entire code with the clipboard
