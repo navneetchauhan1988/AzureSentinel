@@ -90,8 +90,22 @@ you will see all the playbooks across any selected subscriptions.
                d. provide correct password in fourth attempt.
 
                e. close the browser InPrivate window and reture back to azure sentinel page
+               
+   2. Simulate Disabled strong authentication for user
    
-   2. wait for 5-10  minutes.
+               a. Search Azure active directory in Azure Portal
+               
+               b. Click Azure Active Directory
+               
+               c. Select Users blade 
+               
+               d. Click Multi-factor Authentication
+               
+               e. Select Work account and click Enable , Enable Multi-factor Auth , click Close.
+               
+               f. Select the same account , click Disable , click Yes, click Close.
+   
+  
    
    3. Open the **Azure Sentinel dashboard**.
 
