@@ -63,8 +63,32 @@ This tutorial helps you create custom rules to detect threats with Azure Sentine
 9. On Automated Response , click **Next**
 
 10 On Review and create , click **create**
+
+  ### Task 3 :  Create  analytics rule for Azure Activity Directory Audit Log
   
-  ### Task 3  : Create Custom analytics rule definition.
+  1. On Azure Sentinel page , click **Analytics**
+
+  2. Select **Rule Templates**
+  
+  3.  Search for  **MFA disabled for a user** template
+  
+  4. Select Rule **MFA disabled for a user**
+  
+  5. click **Create rule**
+
+6. On General Page, Spend few minutes on rule parameters , click **Next**
+
+7. On Set Rule Logic Page , 
+   set Run query every parameter to 5 Minutes, 
+   set Suppression On , Stop running query after alert is generated
+   keep other parameters value as default , click **Next**
+  
+8. On Incident Settings , keep the paramters value as default , click **Next**
+9. On Automated Response , click **Next**
+
+10 On Review and create , click **create**
+   
+### Task 4  : Create Custom analytics rule definition.
   
  1. In the Azure portal under , select **Analytics**.
 
@@ -122,7 +146,21 @@ This tutorial helps you create custom rules to detect threats with Azure Sentine
 
                e. close the browser InPrivate window and reture back to azure sentinel page
    
-   3. wait for 5 minutes, 
+   3. Simulate Disabled strong authentication for user
+   
+               a. Search Azure active directory in Azure Portal
+               
+               b. Click Azure Active Directory
+               
+               c. Select Users blade 
+               
+               d. Click Multi-factor Authentication
+               
+               e. Select Work account and click Enable , Enable Multi-factor Auth , click Close.
+               
+               f. Select the same account , click Disable , click Yes, click Close.
+   
+   
    
    4. after 5 minutes click **Incidents** under Threat management in azure sentinel.
    
