@@ -49,6 +49,21 @@ Note : If the subscription is not listed , clear the check box Show only subscri
 ![image](https://user-images.githubusercontent.com/33748560/89100057-ba19b180-d411-11ea-929d-f65ddcb91e2e.png)
 
 
+# Lab : Activate Azure AD  Premium P2  License which is required later.
+
+1. Type Azure Active Directoery in free search on azure portal , **Click Azure Active Directory**
+
+![image](https://user-images.githubusercontent.com/33748560/89101232-aa9f6600-d41b-11ea-9916-cf48e6f4ca94.png)
+
+2. On azure AD page, click **Getting Started**
+
+3.click **Get a free trial for Azure AD Premium** 
+
+4.click **Free Trial** and click **Activate**
+
+![image](https://user-images.githubusercontent.com/33748560/89101304-63fe3b80-d41c-11ea-81af-d68a4486d941.png)
+
+
 
 
 
