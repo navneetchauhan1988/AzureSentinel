@@ -1,4 +1,4 @@
-# Lab : Azure Sentinel WorkBooks 
+# Lab : Azure Sentinel Workbooks 
 
 Estimated Time: 45 minutes
 
