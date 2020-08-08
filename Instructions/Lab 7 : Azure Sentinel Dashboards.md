@@ -56,6 +56,8 @@ Build custom dashboards based on projects, tasks, or user roles, for example.
 
 11. Select **Upload** button and choose the .json file saved in step 8 .
 
+12. Repeat step 1 through 11 to create more dashboards.
+
 
 
 
