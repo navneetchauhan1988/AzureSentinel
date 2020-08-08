@@ -4,7 +4,7 @@ Estimated Time: 45 minutes
 
 Dashboards are a focused and organized view of your cloud resources in the Azure portal.
 Use dashboards as a workspace where you can quickly launch tasks for day-to-day operations and monitor resources. 
-Build custom dashboards based on projects, tasks, or user roles, for example.
+Build custom dashboards based on projects, tasks, or user roles.
 
 ## Exercise 1 : Creating Azure shared Dashboards
 
