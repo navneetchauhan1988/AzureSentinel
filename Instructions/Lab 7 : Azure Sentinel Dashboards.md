@@ -38,6 +38,8 @@ Build custom dashboards based on projects, tasks, or user roles, for example.
 
 5. Click Edit button and Copy entire JSON code
 
+![image](https://user-images.githubusercontent.com/33748560/89670794-66223780-d8ff-11ea-8812-8e2cd7f9c2b6.png)
+
 6. Open a text editor , like notepad and paste  the content 
 
 7. Replace the following value with actual values 
