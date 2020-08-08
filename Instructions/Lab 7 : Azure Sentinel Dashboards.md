@@ -40,13 +40,15 @@ Build custom dashboards based on projects, tasks, or user roles, for example.
 
 ![image](https://user-images.githubusercontent.com/33748560/89670794-66223780-d8ff-11ea-8812-8e2cd7f9c2b6.png)
 
-6. Open a text editor , like notepad and paste  the content 
+6. Open a text editor , eg. notepad  ,  and paste  the content in text editor.
 
 7. Replace the following value with actual values 
 
                       {Subscription_Id}
                       {Resource_Group}
                       {Workspace_Name}
+                      
+      (if required ask your instructor for assistance on above details.)
                       
 8. Save the file with your_required_name.json 
                      
