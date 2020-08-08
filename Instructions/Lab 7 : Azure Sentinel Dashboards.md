@@ -27,6 +27,11 @@ Build custom dashboards based on projects, tasks, or user roles, for example.
 
 2. Select **Community** , click **Go to Azure Sentinel community**
 
+
+![image](https://user-images.githubusercontent.com/33748560/89714549-143fe700-d9bd-11ea-9fd2-061d8ca28d88.png)
+
+
+
 3. Open **Dashboards** folder in the github repository.
 
 4. Open **Azure_AD_Audit_Logs.json** 
