@@ -124,9 +124,7 @@ you will see all the playbooks across any selected subscriptions.
    
    ### Challenge : Post a message in teams or slack.
 
-
-   
-   
+  
    Results: You have now completed this lab.
 
 
