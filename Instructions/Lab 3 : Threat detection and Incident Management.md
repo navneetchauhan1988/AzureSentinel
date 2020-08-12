@@ -55,7 +55,7 @@ This tutorial helps you create custom rules to detect threats with Azure Sentine
 
 6. On General Page, Spend few minutes on rule parameters , click **Next**
 
-7. On Set Rule Logic Page , update rule query with failureCountThreshold = 3 , set Run query every parameter to 5 Minutes, set Suppression
+7. On Set Rule Logic Page , update rule query with failureCountThreshold = 3 , set **Run query every** parameter to **5 Minutes**, set Suppression
   On , Stop running query after alert is generated
   keep other parameters value as default , click **Next**
   
