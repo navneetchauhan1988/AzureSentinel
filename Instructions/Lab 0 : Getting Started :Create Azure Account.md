@@ -14,7 +14,7 @@ Estimated Time: 10 minutes
 ![image](https://user-images.githubusercontent.com/33748560/89099861-0106a780-d410-11ea-8cfd-47c5bdb1d46a.png)
 
 
-1. Login with your personal Microsoft account
+1. Login with your personal Microsoft account , if you don't have create from https://login.live.com/
 
   Warning : Do not use your work or school account here. If you do so then the subscription will be protected with your company's directory 
   where you may have restricted access, Also you may mess with your production environment.
