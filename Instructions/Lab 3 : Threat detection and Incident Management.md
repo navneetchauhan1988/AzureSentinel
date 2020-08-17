@@ -126,11 +126,11 @@ This tutorial helps you create custom rules to detect threats with Azure Sentine
   
   
   
-  ### Task 4 : Simulate risk to test analytics rule and detect threats 
+  ### Task 5 : Simulate risk to test analytics rule and detect threats 
   
   1. Create a User account in azure active directory 
   
-  Note : If you are new to Azure AD management , then follow below link 
+  >  **Note : If you are new to Azure AD management , then follow below link** 
    
    https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-users-azure-active-directory
    
