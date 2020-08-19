@@ -96,12 +96,13 @@ This tutorial helps you create custom rules to detect threats with Azure Sentine
  
  3. In the General tab, Configure parameter as below 
  
-             
-             |  Name | GitHub Signin Burst from Multiple Locations|
-             |  Description | This alerts when there Signin burst from multiple locations in GitHub (AAD SSO) |
-             |  Tactics | CredentialAccess |
-             |  Severity | Medium |
-             |  Status | Enabled |
+    | Setting | Value | 
+    | --- | --- |            
+    |  Name | GitHub Signin Burst from Multiple Locations |
+    |  Description | This alerts when there Signin burst from multiple locations in GitHub (AAD SSO) |
+    |  Tactics | CredentialAccess |
+    |  Severity | Medium |
+    |  Status | Enabled |
     
  4. click  **Set rule logic** 
  
