@@ -94,7 +94,7 @@ This tutorial helps you create custom rules to detect threats with Azure Sentine
 
  2. In the top menu bar, select **+Create** and select **Scheduled query rule**. This opens the Analytics rule wizard.
  
- 3. In the General tab, Configure parameter as below 
+ 3. In the General tab, Configure parameters as below 
  
     | Setting | Value | 
     | --- | --- |            
