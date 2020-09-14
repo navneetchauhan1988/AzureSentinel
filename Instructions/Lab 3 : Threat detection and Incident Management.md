@@ -127,7 +127,7 @@ This tutorial helps you create custom rules to detect threats with Azure Sentine
   
   ### Challenge 
   
-  1. Create Anaytics rule to create incidents based  Azure Security Center alerts.
+  1. Create Anaytics rule to create incidents based on Azure Security Center alerts.
   
   
   
