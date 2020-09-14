@@ -120,11 +120,12 @@ After you connect, you see a summary of the data in the **Data received** graph,
 
 ![image](https://user-images.githubusercontent.com/33748560/89101329-914ae980-d41c-11ea-8d22-34c9c745daeb.png)
 
-### Challenge : 
+### Challenges : 
 
-Connect Azure Security Center.
-Connect Azure Active Directory Identitiy Protection. 
-
+ 1. Connect Azure Security Center.
+ 
+ 2. Connect Azure Active Directory Identitiy Protection. 
+ 
 ### Task 2 : External solutions via agent:
 
 ### Installing Azure Log anaytics  Agent on Linux server 
