@@ -125,6 +125,10 @@ This tutorial helps you create custom rules to detect threats with Azure Sentine
 
   9.  On Review and create , click **create**
   
+  ### Challenge 
+  
+  1. Create Anaytics rule to create incidents based  Azure Security Center alerts.
+  
   
   
   
@@ -169,6 +173,12 @@ This tutorial helps you create custom rules to detect threats with Azure Sentine
    5. click **Refresh** , there should be an Incident.
    
    ![image](https://user-images.githubusercontent.com/33748560/89115145-3e1b7a00-d4a2-11ea-98bb-5e131525354e.png)
+   
+   ### Challenge 
+   
+  1.  Simulate SQL Injection attack in azure .
+   
+  2. Tip : you can use following URL https://azure.microsoft.com/en-us/resources/templates/101-sql-injection-attack-prevention/
    
   
     
