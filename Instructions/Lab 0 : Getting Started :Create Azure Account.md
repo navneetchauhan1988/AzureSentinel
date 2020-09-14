@@ -31,7 +31,7 @@ Estimated Time: 10 minutes
 
 
 
-# Lab Verify Azure Subscription.
+# Lab : Verify Azure Subscription.
 
 1. Open https://portal.azure.com/ 
 
@@ -49,7 +49,7 @@ Note : If the subscription is not listed , clear the check box Show only subscri
 ![image](https://user-images.githubusercontent.com/33748560/89100057-ba19b180-d411-11ea-929d-f65ddcb91e2e.png)
 
 
-# Lab : Activate Azure AD  Premium P2  License which is required later.
+# Lab : Activate Azure AD  Premium P2  License.
 
 1. Type Azure Active Directoery in free search on azure portal , **Click Azure Active Directory**
 
