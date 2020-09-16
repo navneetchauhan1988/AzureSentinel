@@ -48,6 +48,11 @@ Azure Sentinel powerful hunting search and query tools to hunt for security thre
        tactics:
                     - Persistence
                     - PrivilegeEscalation
+                    
+                    
+### Create new hunting queries using Sentinel Community.
+
+1. Create few hunting queries , run , and investigate. 
 
 
 
