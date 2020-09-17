@@ -23,32 +23,25 @@ Build custom dashboards based on projects, tasks, or user roles.
 
 ## Exercise 2 : Creating Azure Dashboard using Seninel Community
 
-1. Open Azure Sentinel Page 
+1. Open link https://github.com/navneetchauhan1988/Azure-Sentinel.git
 
-2. Select **Community** , click **Go to Azure Sentinel community**
+2. Open **Dashboards** folder in the github repository.
 
+3. Open **Azure_AD_Audit_Logs.json** 
 
-![image](https://user-images.githubusercontent.com/33748560/89714549-143fe700-d9bd-11ea-9fd2-061d8ca28d88.png)
-
-
-
-3. Open **Dashboards** folder in the github repository.
-
-4. Open **Azure_AD_Audit_Logs.json** 
-
-5. Click Edit button and Copy entire JSON code
+4. Click Edit button and Copy entire JSON code
 
 ![image](https://user-images.githubusercontent.com/33748560/89670794-66223780-d8ff-11ea-8812-8e2cd7f9c2b6.png)
 
-6. Open a text editor , eg. notepad  ,  and paste  the content in text editor.
+5. Open a text editor , eg. notepad  ,  and paste  the content in text editor.
 
-7. Replace the following value with actual values 
+6. Replace the following value with actual values 
 
                       {Subscription_Id}
                       {Resource_Group}
                       {Workspace_Name}
                       
-      (if required ask your instructor for assistance on above details.)
+7. (if required ask your instructor for assistance on above details.)
                       
 8. Save the file with your_required_name.json 
                      
