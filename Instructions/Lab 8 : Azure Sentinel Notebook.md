@@ -152,7 +152,7 @@ AzureActivity
 | limit 20
 ```
 
-:bulb: Now you can Launch Some Sample Notebooks from azure sentinel to the current ML workspace and walk through them. 
+:bulb: Now you can Launch Some Sample Notebooks (eg. Entity Explorer)  from azure sentinel to the current ML workspace and walk through them. 
 
 
 
