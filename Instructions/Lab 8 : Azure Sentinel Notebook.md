@@ -150,6 +150,7 @@ Execute the following to get the Azure Administrative Activites:
 AzureActivity
 | where Category == 'Administrative'
 | limit 20
+```
 
 :bulb: Now you can Launch Some Sample Notebooks from azure sentinel to the current ML workspace and walk through them. 
 
