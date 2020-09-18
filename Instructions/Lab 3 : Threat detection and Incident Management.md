@@ -182,8 +182,9 @@ This tutorial helps you create custom rules to detect threats with Azure Sentine
   2. Tips : 
   
    ```
-   Prerequiste : Azure Secuirty Center Data connector and ASC Analytics Rule which is already performed by you in previous challenges. In case 
-   you have not completed previous challenges , complete them first.
+   Prerequiste : Azure Secuirty Center Data connector and ASC Analytics Rule.
+   You have completed these prerequisted  already as you have  performed challenges in previous labs . 
+   if not, complete challenges from previous labs first.
    
    Use following URL to  simulate SQL Injection attack :  https://azure.microsoft.com/en-us/resources/templates/101-sql-injection-attack-prevention/
    ```
