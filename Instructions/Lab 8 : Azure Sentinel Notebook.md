@@ -136,6 +136,7 @@ After a succesful Azure login, you are ready to run your first KQL query using a
 <br>
 This would output something like this:
 
+![image](https://user-images.githubusercontent.com/33748560/93557798-8bdc3b00-f999-11ea-8adb-3e794ea0fb0f.png)
 
 
 
@@ -143,7 +144,7 @@ This would output something like this:
 ***%kql** means that you are going to pass a KQL query on a single line. Using a double %% sign, means that you are going to use multi lines like the example in the following step*<br><br>
 
 #### Kusto query
-Execute the following to get the ServiceMap addresses:
+Execute the following to get the Azure Administrative Activites:
 ```python
 %%kql
 AzureActivity
