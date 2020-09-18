@@ -177,9 +177,16 @@ This tutorial helps you create custom rules to detect threats with Azure Sentine
    ### Challenge 
    
   1.  Simulate SQL Injection attack in azure .
+  
    
-  2. Tip : you can use following URL https://azure.microsoft.com/en-us/resources/templates/101-sql-injection-attack-prevention/
+  2. Tips : 
+  
+   ```
+   Prerequiste : Azure Secuirty Center Data connector and ASC Analytics Rule which is already performed by you in previous challenges. In case 
+   you have not completed previous challenges , complete them first.
    
+   Use following URL to  simulate SQL Injection attack :  https://azure.microsoft.com/en-us/resources/templates/101-sql-injection-attack-prevention/
+   ```
   
     
   
