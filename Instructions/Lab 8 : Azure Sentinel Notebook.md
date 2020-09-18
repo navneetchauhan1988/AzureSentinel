@@ -63,14 +63,27 @@ Machine learning and deep learning
 
 10. Provide a friendly name to your notebook and Select **file type** as Notebook.
 
+11. Create Compute as displayed in below Screen Shot
+
+![image](https://user-images.githubusercontent.com/33748560/93556403-49fdc580-f996-11ea-8935-902c8cf96eeb.png)
+
+![image](https://user-images.githubusercontent.com/33748560/93556543-9812c900-f996-11ea-8057-2b68c9fefdc1.png)
+
+12. Ensure you have necessary compute in Azure ML workspace
+
+![image](https://user-images.githubusercontent.com/33748560/93556698-f770d900-f996-11ea-9399-1965e438225a.png)
+
+
 The first thing you probably want to do, is to connect your Notebook with the Sentinel workspace.<br>
 Click on your first cell. Notice that you can switch **cell type** in the Cell menu , to either Code, Markdown or Raw NBConvert. The default is code.<br><br>
 
-Copy and paste the following in your cell:
+Copy and paste the following in your cell and run  cell:
 
 ```python
 !pip install Kqlmagic --no-cache-dir --upgrade
 ```
+
+
 This will install KqlMagic, a library that will run KQL queries against a workspace.<br>
 While having the cell selected, hit Ctrl+Enter, this will execute your cell content.
 
@@ -123,8 +136,7 @@ After a succesful Azure login, you are ready to run your first KQL query using a
 <br>
 This would output something like this:
 
-![alt text](https://github.com/tianderturpijn/Mos-Eisley/blob/master/Lab%202/images/kql-query1.png
-)<br><br>
+
 
 
 :bulb: *Notice the following above*:<br>
