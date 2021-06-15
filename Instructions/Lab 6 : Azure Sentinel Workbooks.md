@@ -6,6 +6,11 @@ Workbooks provide a rich set of capabilities for visualizing your data. Workbook
 
 Once you have connected your data sources to Azure Sentinel, you can visualize and monitor the data using the Azure Sentinel adoption of Azure Monitor Workbooks, which provides versatility in creating custom dashboards.
 
+## Lab scenario
+
+You're a Security Operations Analyst working at a company that implemented Azure Sentinel. You must design workbooks with advanced visualizations.
+
+
 
 ## Exercise 1 : Use built-in workbooks
 
@@ -35,31 +40,90 @@ https://docs.microsoft.com/en-us/azure/azure-monitor/platform/workbooks-overview
 
 ## Exercise 2 : Create new workbook
 
-### Task 1 : Create an Azure AD workbook
 
-1. Go to **Workbooks** and then select **+Add workbook** to create a new workbook from scratch.
+### Task 1: Create a Workbook.
 
-2. To edit the workbook, select **Edit**, and then add **text**, **queries**, and **parameters** as necessary.
+In this task, you will create a new workbook with advanced visualizations.
 
-3. Click **Advanced Editor**
+1. Select **Workbooks** in the Azure Sentinel portal.
 
-![image](https://user-images.githubusercontent.com/33748560/89669420-0cb90900-d8fd-11ea-99ed-4bf878d1c069.png)
+2. Select **Add workbook**
 
-4. Right click and open following  Workbook library in a new tab   :  https://github.com/microsoft/Application-Insights-Workbooks/tree/master/Workbooks 
+3. Select **Edit**
 
-5. Open **Azure Active Directory/SignIns/** folder in the repository 
+#### Edit Header text:
 
-6. Open **Signins.workbook** and click **edit button**
+4. Change *New workbook* to *My workbook*.
 
-![image](https://user-images.githubusercontent.com/33748560/89670794-66223780-d8ff-11ea-8812-8e2cd7f9c2b6.png)
+5. Select **Done Editing**.
 
+6. Select **Edit** for the only visible graph.
 
-7. Select all and Copy  to clipboard by pressing **Ctrl+C** , 
+7. Review the KQL statement that provides a union of counts across multiple tables.
 
-8. Switch to Azure Sentinel workbook advanced editor page, and replace the entire code with the clipboard
+8. Select the **Done Editing**.
 
-9. Click **apply** and **Save**.
+9. Select **...** then select **Add**, then select **Add query**.
 
-10. Repeat step 1 through 9 to create more workbooks.
+10. Enter *SecurityEvent*, then select **Run Query**.
+
+11. Change the Timerange to **Last 3 days**.
+
+12. Change the Visualization to different options and see the results.
+
+13. Change the Visualization to **Time chart**.
+
+14. Select **Style** from the Query tab.
+
+15. Select the **Make this item a custom width** box.
+
+16. Set the Percent width to **75** and Max Width to **75**.
+
+17. Select **Advanced Settings** from the Query tab.
+
+18. Select **Enable time range brushing** box. 
+
+19. Enter *demoparam* for **Export selected time range as parameter**.
+
+20. Select **Done Editing**.
+
+21. On the displayed grid, click once, hold, and drag.  This will display a selected range.
+
+22. Select **Add**, then **Add query**.
+
+Enter the following KQL command for the query:
+
+```
+SecurityEvent
+```
+
+23. For Time Range, select **demoparam**.
+
+24. Change the Visualization to **Grid**.
+
+25. Select the **Style** tab.
+
+26. Select **Make this item a custom width**.
+
+27. Change percentage width to **25** and maximum width to **25**.
+
+Done Editing for the Query
+
+28. Select **Done Editing for the Workbook**.
+
+29. Select **Save** and select **Save** again if prompted.
+
+30. Select **Workbooks** in the Azure Sentinel portal.
+
+31. Select the **My workbooks** tab.
+
+32. Select the workbook you just created.
+
+33. Select view saved workbook.
+
+**Note:** Remember to try the timeslice by dragging on the grid.
+
+## You have completed the lab.
+
 
 
