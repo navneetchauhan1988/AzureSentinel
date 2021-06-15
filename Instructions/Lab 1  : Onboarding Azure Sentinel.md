@@ -128,6 +128,59 @@ After you connect, you see a summary of the data in the **Data received** graph,
  
 ### Task 2 : External solutions via agent:
 
+###   Create a Windows Virtual Machine in Azure.
+
+In this task, you will create a Windows virtual machine.
+
+1. Open Azure portal at https://portal.azure.com.
+
+5. Select **Create a Resource**.
+
+6. In the **search the Marketplace** box, enter *Windows 10*. 
+
+7. Select the **Create** dropdown for Microsoft Windows 10.  Then select **Windows 10 Enterprise, version 20H2**.
+
+8. Select your Subscription.
+
+9. Create a new Resource Group named **rg-AZWIN01** if you have not done so already.
+
+10. Set the Virtual Machine name to AZWIN01.
+
+11. Set the Region to  **East US**.
+
+12. Enter a Username of your choosing that is acceptable for Azure.
+
+13. Enter a Password of your choice
+
+14. Select Licensing confirmation.
+
+15. Select **Review + Create**.
+
+16. Select **Create**. Wait for the Resource to be created, this may take a few minutes.
+
+###  Connect an Azure Windows VM.
+
+In this task, you will connect an Azure Windows virtual machine to Azure Sentinel.
+
+1. In the Search bar of the Azure portal, type *Sentinel*, then select **Azure Sentinel**.
+
+2. Select your Azure Sentinel Workspace you created earlier.
+
+3. From the Data Connectors Tab, select the **Security Events** connector from the list.
+
+4. Select your Azure Sentinel Workspace if prompted.
+
+5. Select **Open connector page** on the connector information blade.
+
+6. Select the **Install agent on a Windows Virtual Machine** option.
+
+7. Select **Download & install agent for Azure Windows Virtual machines**.
+
+8. Select the **AZWIN01** virtual machine in the list that you just created in the previous step, then select **Connect**. Wait until the connecting message disappears.
+
+9. Select **Virtual machines** in the navigation list.
+
+
 ### Installing Azure Log anaytics  Agent on Linux server 
 
 1. Select **Cloud Shell** in azure portal.
@@ -162,23 +215,19 @@ wait for cloud shell to be launched.
    
  ### Collect event and performance data
  
- 1. In Azure portal free search , type  Log Analytics and select the workspace you are looking for
+ 1. In Azure portal free search , type  Log Analytics and select the Sentinel workspace 
  
- 2. Select **Advanced settings** 
+ 2. Select **Agents Configuration** 
  
- 3. Select **Data**, and then select **Syslog**.
+ 3. Select **Syslog**.
  
- 4. Check the **Apply below configuration to my machines** check box
+ 4. Click Add **Facility**
  
- 5. You add syslog by typing in the name of the log. Enter **Syslog** and then select the plus sign **+**
+ 5. Add  **Syslog** and then select the log types.
  
- 6. Select **Save** at the top of the page to save the configuration.
+ 6. Click **Apply** at the top of the page to save the configuration.
  
- 7. Select **Linux Performance Counters** to enable collection of performance counters on a Linux computer.
- 
- 8. Select **Apply below configuration to to my machines** and then select **Add the selected performance counters**. They are added and preset with a ten second       collection sample interval.
- 
- 9. Select **Save** at the top of the page to save the configuration.
+
  
  ### Validate the Agent installation
  
@@ -198,7 +247,7 @@ wait for cloud shell to be launched.
  
  ![image](https://user-images.githubusercontent.com/33748560/89269182-2f29f880-d657-11ea-9591-f6e2fa47cc4d.png)
  
-### Stop Azure VM to avoid incurring aditional cost.
+### Stop Azure VM to avoid incurring  cost.
 
 1. Type **VM** in azure portal free search , and click **Virtual Machines**
 
