@@ -122,7 +122,7 @@ After you connect, you see a summary of the data in the **Data received** graph,
 
 ### Challenges : 
 
- 1. Connect Azure Security Center.
+ 1. Connect Azure Defender.
  
  2. Connect Azure Active Directory Identitiy Protection. 
  
