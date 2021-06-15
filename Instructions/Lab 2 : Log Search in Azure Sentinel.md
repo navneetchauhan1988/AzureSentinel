@@ -137,6 +137,19 @@ BarChart
 
 2. Review the result in result pane.
 
+### Task 10 : let statement: use of the let statement to declare variables. In the Query Window. Enter the following statement and select **run**: 
+
+
+```KQL
+let timeOffset = 2d;
+let discardEventStatus = "Started";
+AzureActivity 
+| where TimeGenerated > ago(timeOffset) 
+| where ActivityStatusValue != discardEventStatus
+```
+
+
+
 
 
 
