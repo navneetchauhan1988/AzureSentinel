@@ -1,4 +1,4 @@
-# Lab :  Performing Log Search using Kusto Query Language.
+# Lab :  Create queries for Azure Sentinel using Kusto Query Language (KQL).
 
 Estimated Time: 60 minutes
 
