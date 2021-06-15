@@ -181,7 +181,7 @@ In this task, you will connect an Azure Windows virtual machine to Azure Sentine
 9. Select **Virtual machines** in the navigation list.
 
 
-### Installing Azure Log anaytics  Agent on Linux server 
+### Connect Linux server to Azure Sentinel workspace.
 
 1. Select **Cloud Shell** in azure portal.
 
