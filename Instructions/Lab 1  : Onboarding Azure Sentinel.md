@@ -120,6 +120,30 @@ After you connect, you see a summary of the data in the **Data received** graph,
 
 ![image](https://user-images.githubusercontent.com/33748560/89101329-914ae980-d41c-11ea-8d22-34c9c745daeb.png)
 
+
+### Connect Threat intelligence.
+ 
+In this task, you will connect a Threat intelligence provider with the Threat intelligence - TAXII connector.
+
+
+1. From the Data Connectors tab, select the **Threat intelligence - TAXII (Preview)** connector.
+
+2. Select **Open connector page** on the connector information blade.
+
+3. In the Configuration area, for the Friendly name enter *PhishURLs*
+
+4. For the API root URL enter https://limo.anomali.com/api/v1/taxii2/feeds/
+
+5. Enter **107** for the Collection ID.
+
+6. Enter **guest** for username.
+
+7. Enter **guest** for the password.
+
+8. Now select **Add** button.  
+
+Phishing URLs will be pulled and populate the ThreatIntelligenceIndicator table. 
+
 ### Challenges : 
 
  1. Connect Azure Defender.
