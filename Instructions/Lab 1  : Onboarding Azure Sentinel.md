@@ -236,6 +236,9 @@ wait for cloud shell to be launched.
    **wget https://raw.githubusercontent.com/Microsoft/OMS-Agent-for-Linux/master/installer/scripts/onboard_agent.sh && sh onboard_agent.sh
    -w "YOUR WORKSPACE ID" -s "YOUR WORKSPACE PRIMARY KEY"**
    
+   **OR**
+   
+   You can copy the command from Log Analytics workspace **Agents Management** , **Linux Servers**
    
  ### Collect event and performance data
  
