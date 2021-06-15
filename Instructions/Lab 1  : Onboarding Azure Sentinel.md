@@ -172,7 +172,7 @@ In this task, you will create a Windows virtual machine.
 
 11. Set the Region to  **East US**.
 
-12. Enter a Username of your choosing that is acceptable for Azure.
+12. Enter a Username of your choice that is acceptable for Azure.
 
 13. Enter a Password of your choice
 
