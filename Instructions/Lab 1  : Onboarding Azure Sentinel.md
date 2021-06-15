@@ -156,7 +156,7 @@ Phishing URLs will be pulled and populate the ThreatIntelligenceIndicator table.
 
 In this task, you will create a Windows virtual machine.
 
-1. Open Azure portal at https://portal.azure.com.
+1. In **Azure Portal**
 
 5. Select **Create a Resource**.
 
