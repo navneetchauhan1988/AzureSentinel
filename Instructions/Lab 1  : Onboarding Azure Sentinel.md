@@ -256,7 +256,7 @@ wait for cloud shell to be launched.
 
 
 
-2. Select VM and click **Stop**
+2. Select both VMs and click **Stop**
 
 ![image](https://user-images.githubusercontent.com/33748560/89442901-304d4980-d76d-11ea-9873-ea89f42e745c.png)
 
