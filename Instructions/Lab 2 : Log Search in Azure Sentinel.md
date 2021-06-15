@@ -91,7 +91,13 @@ Kusto query plays a crucial role in creating Azure Sentinel  threat detection ru
 2. Review the result in result pane.
 
 ### Task 8 : summarize: Aggregates groups of rows.
-1.  Enter the below query in editor and click **Run**
+1.  
+```
+AzureActivity
+| where CategoryValue == "Administrative"
+| summarize count() by Caller, Level
+```
+2.  Enter the below query in editor and click **Run**
 
            AzureActivity
             |where CategoryValue == "Administrative" and ActivityStatusValue == "Success"
@@ -147,6 +153,9 @@ AzureActivity
 | where TimeGenerated > ago(timeOffset) 
 | where ActivityStatusValue != discardEventStatus
 ```
+
+### Task 10 : Analyze Results in KQL with the Summarize Operator
+
 
 
 
