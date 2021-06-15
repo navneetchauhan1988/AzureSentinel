@@ -91,7 +91,7 @@ Kusto query plays a crucial role in creating Azure Sentinel  threat detection ru
 2. Review the result in result pane.
 
 ### Task 8 : summarize: Aggregates groups of rows.
-1.  
+1. Analyze Results in KQL with the Summarize Operator 
 ```
 AzureActivity
 | where CategoryValue == "Administrative"
