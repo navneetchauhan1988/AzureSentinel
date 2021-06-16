@@ -154,7 +154,9 @@ AzureActivity
 | where ActivityStatusValue != discardEventStatus
 ```
 
-### Task 10 : Analyze Results in KQL with the Summarize Operator
+### Task 10 : For further practice visit 
+
+**https://docs.microsoft.com/en-us/learn/paths/sc-200-utilize-kql-for-azure-sentinel/**
 
 
 
