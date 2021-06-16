@@ -127,7 +127,7 @@ This tutorial helps you create custom rules to detect threats with Azure Sentine
   
   ### Challenge 
   
-  1. Create Anaytics rule to create incidents based on Azure Security Center alerts.
+  1. Create Anaytics rule to create incidents creation rule for azure defender.
   
   
   
@@ -174,21 +174,7 @@ This tutorial helps you create custom rules to detect threats with Azure Sentine
    
    ![image](https://user-images.githubusercontent.com/33748560/89115145-3e1b7a00-d4a2-11ea-98bb-5e131525354e.png)
    
-   ### Challenge 
-   
-  1.  Simulate SQL Injection attack in azure .
-  
-   
-  2. Tips : 
-  
-   ```
-   Prerequiste : Azure Secuirty Center Data connector and ASC Analytics Rule.
-   You have completed these prerequisted  already as you have  performed challenges in previous labs . 
-   if not, complete challenges from previous labs first.
-   
-   Use following URL to  simulate SQL Injection attack :  https://azure.microsoft.com/en-us/resources/templates/101-sql-injection-attack-prevention/
-   ```
-  
+
     
   
       
@@ -228,13 +214,13 @@ An incident can include multiple alerts. It's an aggregation of all the relevant
     
    2. Select an entity to open the **Entities** pane so you can review information on that entity.
    
-   3. Expand investigation by hovering over each entity to reveal a list of questions that was designed by our security experts and analysts per entity type          to deepen your investigation. This is called exploration queries
+   3. Expand investigation by hovering over each entity to reveal a list of questions that was designed by **Microsoft security experts and analysts** per entity         type to deepen your investigation. This is called **exploration queries**
    
-   4. For example, on a computer you can request related alerts. If you select an exploration query, the resulting entitles are added back to the graph. In this          example, selecting Related alerts returned the following alerts into the graph
+   4. For example, on a computer you can request related alerts. If you select an exploration query, the resulting entities are added back to the graph. In this          example, selecting Related alerts returned the following alerts into the graph
    
    ![image](https://user-images.githubusercontent.com/33748560/89115549-1ed31b80-d4a7-11ea-8ef7-9d139968e084.png)
 
-   5. For each exploration query, you can select the option to open the raw event results and the query used in Log Analytics, by selecting Events>.
+   5. For each exploration query, you can select the option to open the raw event results and the query used in Log Analytics, by selecting **Events>**.
 
    6. In order to understand the incident, the graph gives you a parallel timeline.
    
