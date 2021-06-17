@@ -14,11 +14,11 @@ you will see all the playbooks across any selected subscriptions.
 
 1.  Open the **Azure Sentinel dashboard**.
 
-2.  Under **Configuration**, select **Playbooks**
+2.  Under **Configuration**, select **Automation**
 
-3.  In the Azure Sentinel - Playbooks page, click **+Add Playbook** button.
+3.  click **+Creat** drop down , select  **Add new plabook** 
 
-![image](https://user-images.githubusercontent.com/33748560/89313574-4c31ec00-d696-11ea-8524-d92ed07bab85.png)
+![Screen Shot 2021-06-18 at 12 10 08 AM](https://user-images.githubusercontent.com/33748560/122455221-c840d400-cfc9-11eb-80e5-23e6ea32bcda.png)
 
 
 4. Logic App page will open , Provide details in Logic app parameters as below
