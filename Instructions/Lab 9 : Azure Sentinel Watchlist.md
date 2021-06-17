@@ -8,7 +8,7 @@ Watchlists are stored in your Azure Sentinel workspace as name-value pairs and a
 
 ## Lab scenario
 
-You're a Security Operations Analyst working at a company that implemented Azure Sentinel. You must create watchlist based on the Indicator of Compromise (IoC) provided.
+You're a Security Operations Analyst working at a company that implemented Azure Sentinel. You must create watchlist based on the Indicators of Compromise (IoC) provided.
 In this scenario we will pretend a valid IPAddress as an IoC
 
 
