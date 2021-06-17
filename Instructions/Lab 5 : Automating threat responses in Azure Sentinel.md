@@ -16,7 +16,7 @@ you will see all the playbooks across any selected subscriptions.
 
 2.  Under **Configuration**, select **Automation**
 
-3.  click **+Creat** drop down , select  **Add new plabook** 
+3.  click **+Creat** drop down , select  **Add new playbook** 
 
 ![Screen Shot 2021-06-18 at 12 10 08 AM](https://user-images.githubusercontent.com/33748560/122455221-c840d400-cfc9-11eb-80e5-23e6ea32bcda.png)
 
