@@ -16,7 +16,7 @@ In this scenario we will pretend a valid IPAddress as an IoC
 
 
 
-## Exercise 1 : Add a CSV in watchlist
+## Exercise 1 : Add watchlist , perform search based on given watchlist data.
 
 ## Task 1: Note  IP Address  to simulate as an IoC
 
