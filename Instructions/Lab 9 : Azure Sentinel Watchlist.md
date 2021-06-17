@@ -107,15 +107,6 @@ AzureActivity
 
 ```
 
-![Screen Shot 2021-06-17 at 10 27 38 PM](https://user-images.githubusercontent.com/33748560/122444494-3b444d80-cfbe-11eb-8a80-69e7864f3347.png)
-
-
-
-
-
-
-
-
 
 
 
