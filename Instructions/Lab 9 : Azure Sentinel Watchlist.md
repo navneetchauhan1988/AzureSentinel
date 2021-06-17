@@ -81,7 +81,7 @@ _GetWatchlist('Test')
 
 3. Find events in sentinel workspace based on the provided IoC
 
-4. Approach A : Ener the below query, replace **Test** with watchlist name you provided in previous exercise and run
+4. **Approach A** : Ener the below query, replace **Test** with watchlist name you provided in previous exercise and run
 
 ```
 //Watchlist as a variable
@@ -94,7 +94,7 @@ AzureActivity
 ![Screen Shot 2021-06-17 at 10 27 38 PM](https://user-images.githubusercontent.com/33748560/122444494-3b444d80-cfbe-11eb-8a80-69e7864f3347.png)
 
 
-5. Approach B : Ener the below query, replace **Test** with watchlist name you provided in previous exercise and run
+5. **Approach B** : Ener the below query, replace **Test** with watchlist name you provided in previous exercise and run
 
 ```
 //Watchlist inline with the query
