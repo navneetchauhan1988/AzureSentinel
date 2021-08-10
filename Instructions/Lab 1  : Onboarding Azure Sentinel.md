@@ -84,8 +84,10 @@ Azure Sentinel creates connections to services and apps by connecting to the ser
 3.  Select **Azure Activity** and click **Open connector page**.
 
 4.  Select **Configure Azure Activity logs**.
-
-     ![image](https://user-images.githubusercontent.com/33748560/89099700-d36d2e80-d40e-11ea-8f0d-b510a36409c8.png)
+5.  Select your Subscription in  **Scope** 
+6.  Click **Next**
+7.  Select Sentinel workspace in **Primary Log analytics workspace**
+8.  click **Review+create** and click **Create**
 
 
   On the specific connector page, make sure you have fulfilled all the prerequisites and follow the instructions to connect the data to Azure Sentinel. 
