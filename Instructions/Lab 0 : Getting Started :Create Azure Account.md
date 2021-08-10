@@ -57,7 +57,7 @@ Note : If the subscription is not listed , clear the check box Show only subscri
 
 2. On azure AD page, click **Licences**
 
-3.click **All Products under Manage** 
+3.click **All Products** under ** Manage** 
 
 4.click **Try/Buy** and click **Azure AD P2 ** , **Free Trial ** , **Activate**
 
