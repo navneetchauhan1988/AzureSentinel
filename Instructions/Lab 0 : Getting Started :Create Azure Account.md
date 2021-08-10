@@ -55,13 +55,13 @@ Note : If the subscription is not listed , clear the check box Show only subscri
 
 ![image](https://user-images.githubusercontent.com/33748560/89101232-aa9f6600-d41b-11ea-9916-cf48e6f4ca94.png)
 
-2. On azure AD page, click **Getting Started**
+2. On azure AD page, click **Licences**
 
-3.click **Get a free trial for Azure AD Premium** 
+3.click **All Products under Manage** 
 
-4.click **Free Trial** and click **Activate**
+4.click **Try/Buy** and click **Azure AD P2 ** , **Free Trial ** , **Activate**
 
-![image](https://user-images.githubusercontent.com/33748560/89101304-63fe3b80-d41c-11ea-81af-d68a4486d941.png)
+
 
 
 
