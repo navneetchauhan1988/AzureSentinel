@@ -160,7 +160,7 @@ This tutorial helps you create custom rules to detect threats with Azure Sentine
                
                c. Select Users blade 
                
-               d. Click Multi-factor Authentication
+               d. Click Per-User MFA
                
                e. Select Work account and click Enable , Enable Multi-factor Auth , click Close.
                
