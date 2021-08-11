@@ -80,7 +80,6 @@ This tutorial helps you create custom rules to detect threats with Azure Sentine
 
 7. On Set Rule Logic Page , 
    set Run query every parameter to 5 Minutes, 
-   set Suppression On , Stop running query after alert is generated
    keep other parameters value as default , click **Next**
   
 8. On Incident Settings , keep the paramters value as default , click **Next**
