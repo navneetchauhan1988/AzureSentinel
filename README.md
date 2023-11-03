@@ -1,6 +1,8 @@
 # Azure Sentinel
 ## Microsoft Azure Sentinel step by step guide.
 
+www.traincrest.com
+
 This program is for those Candidates,  who wish to onboard and perform day to day security operations in Azure Sentinel.
 
 ## Requirements
