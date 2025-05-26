@@ -1,7 +1,7 @@
 # Azure Sentinel
 ## Microsoft Azure Sentinel step by step guide.
 
-www.traincrest.com
+www.cloud360.co
 
 This program is for those Candidates,  who wish to onboard and perform day to day security operations in Azure Sentinel.
 
